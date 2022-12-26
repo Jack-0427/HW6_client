@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const instance = axios.create({
-  baseURL: `https://hw6server-production.up.railway.app/`,
+  baseURL: `https://104.196.232.237:6222/`,
 });
 
 export default instance;
